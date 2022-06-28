@@ -31,7 +31,7 @@ The following table shows the corresponding url to use for the application you'r
 ### Installing
 
 1. Login to the Web-UI for the corresponding project.
-2. Navigate to the area where you add a template (in portainer you'll need to enable external templates)
+2. Navigate to the relevant area to add a template (in Portainer v1 you'll need to enable external templates, in v.2.1.1 onwards you need to overwrite the existing app template URL of `https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json` with the relevant one above)
 3. Add the template URL corresponding to the application you're using in the table above.
 
 ### Information
