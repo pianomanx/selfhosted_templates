@@ -1,6 +1,61 @@
 [
     {
       "type": 1,
+      "title": "Phpmyadmin",
+      "name": "Phpmyadmin",
+      "description": "Phpmyadmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB.",
+      "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png",
+      "image": "lscr.io/linuxserver/phpmyadmin:latest",
+      "note": "Yacht App Templates by <a href='https://github.com/SelfhostedPro' target='_blank'>SelfhostedPro</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p>",
+      "categories": [
+        "System Tools"
+      ],
+      "platform": "linux",
+      "restart_policy": "unless-stopped",
+      "ports": [
+        "80:8306/tcp"
+      ],
+      "volumes": [
+        {
+          "container": "/config",
+          "bind": "!config/phpmyadmin/config"
+        }
+      ],
+      "env": [
+        {
+          "name": "PUID",
+          "label": "PUID",
+          "default": "!PUID",
+          "description": "for UserID"
+        },
+        {
+          "name": "PGID",
+          "label": "PGID",
+          "default": "!PGID",
+          "description": "for GroupID"
+        },
+        {
+          "name": "TZ",
+          "label": "TZ",
+          "default": "!TZ",
+          "description": "Specify a timezone to use for example Europe/Amsterdam"
+        },
+        {
+          "name": "PMA_ARBITRARY",
+          "label": "PMA_ARBITRARY",
+          "default": "1",
+          "description": "Set to `1` to allow you to connect to any server. Setting to `0` will only allow you to connect to specified hosts (See Application Setup)"
+        },
+        {
+          "name": "PMA_ABSOLUTE_URI",
+          "label": "PMA_ABSOLUTE_URI",
+          "default": "https://phpmyadmin.yourdomain.tld",
+          "description": "Set the URL you will use to access the web frontend"
+        }
+      ]
+    },
+    {
+      "type": 1,
       "title": "Airsonic",
       "name": "airsonic",
       "description": "Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.",
