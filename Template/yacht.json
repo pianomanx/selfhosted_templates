@@ -3663,6 +3663,7 @@
         {
           "name": "OPENVPN_CONFIG",
           "label": "OPENVPN_CONFIG",
+		  "description": "Define server/region/etc to be connected to",
           "default": ""
         },
         {
