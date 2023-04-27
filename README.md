@@ -49,28 +49,10 @@ All templates are already configured to bind mount to various places on your dri
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
 ## App List
 
-- Guacamole
-- Homer
-- Wikijs
-- Bazarr
-- Jellyfin
-- Bitwarden_rs
-- Pi-Hole
-- Whoogle
-- Mstream
-- Filebrowser
-- YouTubeDL-Material
-- DashMachine
-- Reactive-Resume
-- LibreSpeed
-- DeeMix
-- Nginx Proxy Manager
-- Organizrv2
-- TiddlyWiki
-- Watchtower
-- transmission-openvpn
 - airsonic
+- Bazarr
 - beets
+- Bitwarden_rs
 - booksonic
 - bookstack
 - calibre-web
@@ -80,21 +62,28 @@ All templates are already configured to bind mount to various places on your dri
 - cops
 - couchpotato
 - daapd
+- DashMachine
 - davos
+- DeeMix
 - deluge
 - domoticz
 - duckdns
 - duplicati
+- Filebrowser
 - freshrss
 - gazee
+- Guacamole
 - headphones
 - heimdall
+- Homer
 - htpcmanager
 - jackett
+- Jellyfin
 - kodi-headless
 - lazylibrarian
 - letsencrypt
 - libresonic
+- LibreSpeed
 - lidarr
 - lychee
 - mariadb
@@ -102,17 +91,21 @@ All templates are already configured to bind mount to various places on your dri
 - medusa
 - minetest
 - minisatip
+- Mstream
 - musicbrainz
 - muximux
 - mylar
 - nextcloud
 - nginx
+- Nginx Proxy Manager
 - nzbget
 - nzbhydra
 - ombi
 - openvpn-as
+- Organizrv2
 - oscam
 - photoshow
+- Pi-Hole
 - piwigo
 - plex
 - plexrequests
@@ -121,6 +114,7 @@ All templates are already configured to bind mount to various places on your dri
 - qbittorrent
 - quassel-core
 - radarr
+- Reactive-Resume
 - resilio-sync
 - rutorrent
 - sabnzbd
@@ -131,13 +125,20 @@ All templates are already configured to bind mount to various places on your dri
 - syncthing
 - tautulli
 - thelounge
+- TiddlyWiki
 - transmission
+- transmission-openvpn
 - tt-rss
 - tvheadend
 - ubooquity
 - unifi
+- Watchtower
 - webgrabplus
+- Whoogle
+- Wikijs
+- YouTubeDL-Material
 - znc
+
 
 ## Contributing
 
