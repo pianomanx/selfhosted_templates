@@ -1,25 +1,23 @@
 ### Notice:
 
-**You can use this visual builder to create templates and submit PRs to this repo if they work: [Shipwright](https://shipwright.yacht.sh) it's currently pretty early in development but should be able to take portainer templates (that don't have type 2 or 3 templates) and import them for editing.**
-
-Currently most of my dev time is being spent on [Yacht](https://github.com/SelfhostedPro/Yacht/tree/vue) if you would like something added please consider making a pull request with your addition and I'll work on getting it added when I'm able to. Information about how to structure a block (for an app) is available [here](https://portainer.readthedocs.io/en/stable/templates.html) and there is a gui builder [here](https://shipwright.yacht.sh)
+Currently most of my dev time is being spent on [Yacht](https://github.com/SelfhostedPro/Yacht/tree/vue) if you would like something added please consider making a pull request with your addition and I'll work on getting it added when I'm able to. Information about how to structure a block (for an app) is available [here](https://portainer.readthedocs.io/en/stable/templates.html).
 
 # Portainer Templates for Selfhosted Projects/Homelabs
 
 This is a template focused on helping people spin up selfhosted services using Portainer and Yacht.
+
 ## Versions
 
 The following table shows the corresponding url to use for the application you're using.
 
-| Application  | URL |
-| ------------- | ------------- |
-| Yacht | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/yacht.json |
-| Yacht (arm) | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/yacht-arm.yml |
-| Portainer v1 (no OMV)  | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v1.json  |
-| Portainer v2 (no OMV)  | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json  |
-| Portainer v1 OMV | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v1.json |
-| Portainer v2 OMV | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v2.json|
-
+| Application           | URL                                                                                                    |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
+| Yacht                 | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/yacht.json        |
+| Yacht (arm)           | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/yacht-arm.yml     |
+| Portainer v1 (no OMV) | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v1.json |
+| Portainer v2 (no OMV) | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json |
+| Portainer v1 OMV      | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v1.json       |
+| Portainer v2 OMV      | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v2.json       |
 
 ### Prerequisites
 
@@ -35,6 +33,7 @@ The following table shows the corresponding url to use for the application you'r
 3. Add the template URL corresponding to the application you're using in the table above.
 
 ### Information
+
 All templates are already configured to bind mount to various places on your drive. This branch works without the need for OMV. The following folders are all created in /portainer/
 
 * **Files** - General file storage.
@@ -47,6 +46,7 @@ All templates are already configured to bind mount to various places on your dri
 * **Books** - Where books are stored/moved to after downloaded.
 * **Comics** - Where comics are stored/moved to after downloaded.
 * **Podcasts** - Where podcasts are stored/moved to after downloaded.
+
 ## App List
 
 - airsonic
@@ -139,12 +139,12 @@ All templates are already configured to bind mount to various places on your dri
 - YouTubeDL-Material
 - znc
 
-
 ## Contributing
 
 If you wish to contribute make a pull request, create an issue, or email me.
 
 ## Authors
+
 * **NASHosted** - *Current Work*
 * **SelfhostedPro** - *Current Work*
 * **Jos Visser** - *Initial work* - [Qballjos](https://github.com/Qballjos)
